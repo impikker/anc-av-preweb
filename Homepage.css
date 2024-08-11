@@ -99,15 +99,14 @@
 .director {
     background-color: #ffffff;
     width: 30vw;
-    height: 50%;
+    height: 30vw;
     padding: 2vw;
     text-align: center;
 }
 
 .news {
     background-color: #ffffff;
-    width: 60vw;
-    height: auto; 
+    width: 80vw;
     padding: 10px;
     text-align: center;
     font-size: 20px;
@@ -116,19 +115,19 @@
 
 .head-news {
     color: #FFFFFF;
-    -webkit-text-stroke: 2.5px rgb(15, 15, 129);
+    -webkit-text-stroke: 0.112em  rgb(15, 15, 129);
     text-align: center;
-    font-size: 38px;
+    font-size: 2.5vw;
 }
 
 .a {
     color: rgb(15, 15, 129);
-    font-size: 18px;
+    font-size: 1vw;
 }
 
 .d {
     color: rgb(15, 15, 129);
-    font-size: 25px;
+    font-size: 1.5vw;
 }
 
 .c {
