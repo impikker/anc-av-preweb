@@ -10,7 +10,7 @@
 .Header{
     background: linear-gradient(to right, #F4FA94,#E0E9A4, #9ABDCC, #7CAADD,#669CEA); 
     justify-content: center;
-    font-size: 22px;
+    font-size: 140%;
     display: flex; 
     align-items: center; 
   
@@ -19,7 +19,7 @@
 .Name{
     text-align: center;
     color: white;
-    -webkit-text-stroke: 2.5px rgb(15, 15, 129);
+    -webkit-text-stroke: 0.112em rgb(15, 15, 129);
     padding: 18px;
     display: flex;
     align-items: center; 
