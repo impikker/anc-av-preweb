@@ -75,7 +75,7 @@ function openNewsDetail(index) {
     console.log(newsindex);
     const newsItem = News[newsindex];
     $(".modal-img").attr("src", newsItem.img);
-    $(".modal-detail p").text(fulldetail[newsindex].newsdetail); // Use fulldetail here
+    $(".modal-detail p").text(fulldetail[newsindex].newsdetail);
     $(".date-news").text(newsItem.date);
     $("#modalDesc").css('display', 'flex');
 }
@@ -87,7 +87,7 @@ function closeModal() {
 function downloadFile(url) {
     const a = document.createElement('a');
     a.href = url;
-    a.download = url.split('/').pop();  // ชื่อไฟล์อาจถูกตั้งตาม URL
+    a.download = url.split('/').pop();  
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
