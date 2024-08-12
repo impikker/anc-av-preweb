@@ -250,29 +250,18 @@ p{
     background: #0C3266;
     width: 12vw;
     height: 3vw;
-    padding: 10px;
+    padding: 0.1vw;
     border-radius: 5px;
     border: 1px solid #669CEA;
     color:rgb(255, 255, 255);
     transition: 0.3s;
+    font-size: 0.8vw;
 
-
-    
-    
 }
-.btn-text-in{
-    color:white;
-}
-.btn-text-in:hover{
-    color:rgb(0, 0, 0);
-}
-
 
 
 .btn-all-news:hover{
     background: #fffc55;
-    margin-bottom: 10px;
-    padding: 10px;
     border-radius: 5px;
     border: 1px solid #fffc55;
     color:rgb(0, 0, 0);
@@ -375,15 +364,16 @@ hr{
 
 }
 .address{
-    margin-left: 100px;
+    margin-left: 30vw;
 
 }
-.license p{
+
+.license{
     text-align: center;
+    height: 1.2vw;
     
-    height: 30px;
     color:#0C3266;
-    font-size: 20px;
+    font-size: 0.9vw;
 }
 
 .history{
