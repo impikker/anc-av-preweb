@@ -141,7 +141,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1vw;
     padding-bottom: 20px;
-    background: #bc7171;
+
     box-sizing: border-box; 
     object-fit: cover;
 }
