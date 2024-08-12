@@ -51,17 +51,6 @@
     padding: 0 30px; 
     margin: 0 10px; 
 }
-.search{
-    padding: 2.5px;
-    border:  2px solid transparent;
-    width: 19%;
-    outline: none;
-    border-radius: 6px;
-    transition: 0.3s;
-}
-.search:hover{
-    border: 2px solid rgb(255, 247, 0);
-}
 
 .slide-img{
     width: 100%;
@@ -214,7 +203,7 @@ p{
     height: 28vw;
     background: #ffffff;
     border-radius: 15px;
-    padding: 45px;
+    padding: 1.5vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -225,7 +214,7 @@ p{
     background: #ffffff;
     display: flex;
     width: 100%;
-    padding: 7px;
+    padding: 0.1vw;
 
     
 }
@@ -242,19 +231,19 @@ p{
     max-width: 30vw;
     max-height: 20vw;
     overflow-y: scroll;
-   
-    padding: 50px;
+    background: #ffffff;
+    padding: 1vw;
     font-size: 1vw;
-    margin: 0;
+    margin: 1vw;
 }
 .date-news{
 
     text-align: right;
     background: #ffffff;
-    font-size: 14px; 
+    font-size: 0.8vw; 
     position: absolute; 
-    bottom: 20px; 
-    right: 50px; 
+    bottom: 2vw; 
+    right: 3vw; 
 }
 
 .btn-all-news{
