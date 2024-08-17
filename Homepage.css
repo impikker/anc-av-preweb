@@ -74,16 +74,22 @@
 
 .container {
     background-color: #ffffff;
-    width: 90vw;
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
     margin: 0 auto;
    
+}
+
+.content-container{
+    margin: 0 auto;
+    width: 92%;
+    background: #ffffff;
+    display: flex;
 }
 .left-side {
     display: flex;
     flex-direction: column;
     width: 35vw; 
+    margin: 0 auto;
 }
 .director {
     background-color: #ffffff;
@@ -275,8 +281,8 @@ p{
     font-size: 0.95vw;
     width: 21vw;
     height: 3vw;
-    background: #0C3266;
-    margin-bottom: 5px; 
+    background: #0c3164;
+    margin-bottom: 0.4vw; 
     padding: 10px; 
     border-radius: 0.8vw;
     color: rgb(255, 255, 255);
@@ -292,7 +298,7 @@ p{
     width: 23vw;
     height: 3vw;
     background: #ffff00;
-    margin-bottom: 5px; 
+    margin-bottom: 0.4vw; 
     padding: 10px; 
     border-radius: 10px;
     border-color: white;
@@ -559,4 +565,50 @@ table {
     align-items: center; 
     justify-content: center;
     text-align: center;
+}
+.hire-content{
+    margin:0 auto;
+    align-items: center; 
+    justify-content: center;
+    background: #ffffff;
+    width: 92%;
+}
+.btn-hire{
+    font-size: 0.9vw;
+    height: 100%;
+    width: 95%;
+    border-radius: 0.5vw;
+    border-color: #061730;
+    padding: 0.9vw;
+    text-align: left;
+    background-color: white;
+    color:#0C3266;
+    font-weight: 500;
+    margin-bottom: 0.1vw; 
+}
+.btn-hire:hover{
+    font-size: 0.9vw;
+    height: 100%;
+    width: 95%;
+    border-radius: 0.5vw;
+    border-color: #061730;
+    padding: 0.9vw;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    color:#ff3434;
+    font-weight: 500;
+    margin-bottom: 0.1vw; 
+}
+
+.fb:hover{
+    color:red;
+}
+.youtube:hover{
+    color:red;
+}
+.social-text:hover{
+    color: red;
+}
+.social-text{
+    color: white;
 }

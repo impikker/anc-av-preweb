@@ -92,3 +92,54 @@ function downloadFile(url) {
     a.click();
     document.body.removeChild(a);
 }
+
+
+function ToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+function ToScience() {
+    document.body.scrollTop = 2240;
+    document.documentElement.scrollTop = 2240;
+}
+function ToMath() {
+    document.body.scrollTop = 11800;
+    document.documentElement.scrollTop = 11800;
+}
+function ToThai() {
+    document.body.scrollTop = 15530;
+    document.documentElement.scrollTop = 15530;
+}
+function ToPE() {
+    document.body.scrollTop = 17400;
+    document.documentElement.scrollTop = 17400;
+}
+function ToSug() {
+    document.body.scrollTop = 19300;
+    document.documentElement.scrollTop = 19300;
+}
+
+function ToSocial() {
+    document.body.scrollTop = 21100;
+    document.documentElement.scrollTop = 21100;
+}
+
+function ToEng() {
+    document.body.scrollTop = 24920;
+    document.documentElement.scrollTop = 24920;
+}
+
+function ToCareer() {
+    document.body.scrollTop = 28770;
+    document.documentElement.scrollTop = 28770;
+}
+
+function ToArt() {
+    document.body.scrollTop = 30650;
+    document.documentElement.scrollTop = 30650;
+}
+
+function ToOther() {
+    document.body.scrollTop = 32500;
+    document.documentElement.scrollTop = 32500;
+}

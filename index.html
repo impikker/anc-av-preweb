@@ -28,7 +28,7 @@
             <div class="nav-container">
             |<a href="index.html">หน้าหลัก</a>|
             <a href="histort.html">ประวัติโรงเรียนอำนาจเจริญ</a>|
-            <a href="#">ข้อมูลบุคลากร</a>|
+            <a href="personel.html">ข้อมูลบุคลากร</a>|
           
             
             
@@ -37,37 +37,17 @@
         </div>
     </nav>
     <content>
-        <div class="slide-img">
-            <div class="item">
+        <div class="slide-img">    
                 <img src="01.jpg">
-            </div>
-            <div class="item">
-                <img src="02.jpg">
-            </div>
-            <div class="item">
+                <img src="02.jpg"> 
                 <img src="03.jpg">
-            </div>
-            <div class="item">
                 <img src="04.jpg">
-            </div>
-            <div class="item">
                 <img src="05.jpg">
-            </div>
-            <div class="item">
                 <img src="06.jpg">
-            </div>
-            <div class="item">
                 <img src="07.jpg">
-            </div>
-            <div class="item">
                 <img src="08.jpg">
-            </div>
-            <div class="item">
                 <img src="09.jpg">
-            </div>
-            <div class="item">
                 <img src="10.jpg">
-            </div>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.5.2/jquery-migrate.min.js" integrity="sha512-BzvgYEoHXuphX+g7B/laemJGYFdrq4fTKEo+B3PurSxstMZtwu28FHkPKXu6dSBCzbUWqz/rMv755nUwhjQypw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -84,6 +64,9 @@
             });
         </script>
 <div class="container">
+    <div class="content-container">
+
+
     <div class="left-side">
         <div class="director">
             <img src="direc.jpg" width="80%">
@@ -97,7 +80,6 @@
                 <a class="link-btn" href="studen_info.html"><button class="btn-li">ข้อมูลนักเรียน</button></a>
                 <a class="link-btn" href="map.html"><button class="btn-li">ข้อมูลอาคารสถานที่</button></a>
                 <a class="link-btn" href="https://sgs6.bopp-obec.info/sgss/Security/SignIn.aspx"><button class="btn-li">ตรวจสอบผลการเรียน | SGS</button></a>
-                <a class="link-btn" href="student_council.html"><button class="btn-li">คณะกรรมการนักเรียน ปี2567</button></a>
                 <a class="link-btn" href="dowload.html"><button class="btn-li">เอกสารดาวน์โหลด</button></a>
             </div>
         </div>
@@ -106,15 +88,24 @@
         <h1 class="head-news">ข่าวสาร/ประชาสัมพันธ์ | News</h1>
         <div id="newslist" class="news-container">
             
-            
         </div>
        
-            <a href="All_News.html"> <button class="btn-all-news">ดูข่าวสารทั้งหมด</button></a>
-      
+            <a href="All_News.html"> <button class="btn-all-news">ดูข่าวสารทั้งหมด</button></a><br><br>
+            <div class="hire-content" >
+                <h1 class="head-news">ข่าวจัดซื้อจัดจ้าง</h1>
+                    <div class="text-hire">
+                        <a href="https://drive.google.com/file/d/1BaZKK1aN8ZtT8stP6DWYJXjvCgP2D_w_/view"><button class="btn-hire"><i class="fa-sharp fa-solid fa-file-lines"></i>   การคัดเลือกครู บุคลากรทางการศึกษา  เพื่อรับรางวัลพระพฤหัสบดี ประจำปี พ.ศ.2567 ส่งที่สำนักงาน ​สกสค.จังหวัดอำนาจเจริญ ถึงวันที่ 14 สิงหาคม 2567</button></a>
+                        <a href="https://drive.google.com/drive/folders/1jfwSzJ-XwgucbqjhUG--pWAJyzk5nfOv"><button class="btn-hire"><i class="fa-sharp fa-solid fa-file-lines"></i>   สพม.อบอจ ประชาสัมพันธ์งาน "มหกรรมแก้หนี้  สร้างวิถีแห่งความเป็นธรรม" ในวันเสาร์ที่ 27 กรกฏาคม ​2567 เวลา 08.00 - 16.30 ณ โรงแรมสุนีย์แกรนด์แอนด์ คอนเวนชั่น เซ็นเตอร์ บุคลากรท่านใดสนใจ</button></a>
+                    </div>
+            </div>
     </div>
+    
 </div>
 
+</div> 
+
      
+
         <div onclick="closeModal()" id="modalDesc"class="modal" style="display: none;" >
             <div class="modal-bg">
                 <div class="modal-page" onclick="event.stopPropagation()">
@@ -156,13 +147,13 @@
           
                 <div class="fb">
                     <i class="fa-brands fa-facebook"></i>
-                  <a class="social" href ="https://www.facebook.com/AncsCHOOL"> โรงเรียนอำนาจเจริญ - Amnatcharoen School</a>
+                  <a class="social-text" href ="https://www.facebook.com/AncsCHOOL"> โรงเรียนอำนาจเจริญ - Amnatcharoen School</a>
           
                     </div>
           
                 <div class="youtube">
                     <i class="fa-brands fa-youtube"></i>
-                    <a class="social" href ="https://www.youtube.com/@ANCCHANEL">  โรงเรียนอำนาจเจริญ (World Class Standard School) </a>
+                    <a class="social-text" href ="https://www.youtube.com/@ANCCHANEL">  โรงเรียนอำนาจเจริญ (World Class Standard School) </a>
                     </div>
           
           
