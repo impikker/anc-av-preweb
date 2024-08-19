@@ -72,3 +72,9 @@ content{
     right: 1rem;
     bottom: 1rem;
 }
+.img-person{
+
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}

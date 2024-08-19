@@ -99,47 +99,67 @@ function ToTop() {
     document.documentElement.scrollTop = 0;
 }
 function ToScience() {
-    document.body.scrollTop = 2240;
-    document.documentElement.scrollTop = 2240;
+    const element = document.getElementById("science");
+    if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+    }
 }
 function ToMath() {
-    document.body.scrollTop = 11800;
-    document.documentElement.scrollTop = 11800;
+    const element = document.getElementById("math");
+    if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+    }
 }
 function ToThai() {
-    document.body.scrollTop = 15530;
-    document.documentElement.scrollTop = 15530;
+    const element = document.getElementById("thai");
+    if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+    }
 }
 function ToPE() {
-    document.body.scrollTop = 17400;
-    document.documentElement.scrollTop = 17400;
+    const element = document.getElementById("pe");
+    if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+    }
 }
 function ToSug() {
-    document.body.scrollTop = 19300;
-    document.documentElement.scrollTop = 19300;
+    const element = document.getElementById("sug");
+    if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+    }
 }
 
 function ToSocial() {
-    document.body.scrollTop = 21100;
-    document.documentElement.scrollTop = 21100;
+    const element = document.getElementById("social");
+    if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+    }
 }
 
 function ToEng() {
-    document.body.scrollTop = 24920;
-    document.documentElement.scrollTop = 24920;
+    const element = document.getElementById("eng");
+    if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+    }
 }
 
 function ToCareer() {
-    document.body.scrollTop = 28770;
-    document.documentElement.scrollTop = 28770;
+    const element = document.getElementById("career");
+    if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+    }
 }
 
 function ToArt() {
-    document.body.scrollTop = 30650;
-    document.documentElement.scrollTop = 30650;
+    const element = document.getElementById("art");
+    if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+    }
 }
 
 function ToOther() {
-    document.body.scrollTop = 32500;
-    document.documentElement.scrollTop = 32500;
+    const element = document.getElementById("other");
+    if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+    }
 }
