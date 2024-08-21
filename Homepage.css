@@ -616,3 +616,30 @@ table {
     margin-right: 2rem;
     
 }
+.relation-bg{
+    margin: 0 auto;
+    width: 70%;
+    background-color: #ffffff;
+    padding: 2.5vw;
+    font-size: 1.4vw;
+    font-weight: 800;
+}
+.linecss{
+    margin: 0 auto; 
+    width: 65vw;
+    height: 0px;
+    border: 1px solid #000000;
+}
+.date-relation{
+    position: absolute;
+    left: 20.8rem;
+    padding: 0.5vw;
+    font-size: 0.8vw;
+}
+.content-relation{
+    background: rgb(255, 255, 255);
+    width: 70%;
+    margin: 0 auto; 
+    padding: 3vw;
+    font-size: 1vw;
+}
